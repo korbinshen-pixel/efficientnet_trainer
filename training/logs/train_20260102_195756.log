@@ -1,0 +1,29 @@
+2026-01-02 19:57:56 - Trainer - INFO - Model parameters: 12,536,876
+2026-01-02 19:57:56 - Trainer - INFO - Training samples: 9460
+2026-01-02 19:57:56 - Trainer - INFO - Validation samples: 1183
+2026-01-02 19:57:56 - Trainer - INFO - Starting training...
+2026-01-02 19:57:56 - Trainer - INFO - ============================================================
+2026-01-02 19:58:40 - Trainer - INFO - Epoch 1/100 - Train Loss: 1.408233, Pos: 0.426019, Yaw: 0.982214
+2026-01-02 19:58:45 - Trainer - INFO - Epoch 1/100 - Val Loss: 0.393349, Pos: 0.097676, Yaw: 0.295673
+2026-01-02 19:58:45 - Trainer - INFO - ✓ New best model saved! Val Loss: 0.393349
+2026-01-02 19:59:27 - Trainer - INFO - Epoch 2/100 - Train Loss: 0.726520, Pos: 0.175590, Yaw: 0.550930
+2026-01-02 19:59:32 - Trainer - INFO - Epoch 2/100 - Val Loss: 0.310252, Pos: 0.118167, Yaw: 0.192085
+2026-01-02 19:59:33 - Trainer - INFO - ✓ New best model saved! Val Loss: 0.310252
+2026-01-02 20:00:15 - Trainer - INFO - Epoch 3/100 - Train Loss: 0.582229, Pos: 0.133632, Yaw: 0.448596
+2026-01-02 20:00:20 - Trainer - INFO - Epoch 3/100 - Val Loss: 0.148458, Pos: 0.045599, Yaw: 0.102859
+2026-01-02 20:00:20 - Trainer - INFO - ✓ New best model saved! Val Loss: 0.148458
+2026-01-02 20:00:51 - Trainer - INFO - Epoch 4/100 - Train Loss: 0.514193, Pos: 0.110674, Yaw: 0.403520
+2026-01-02 20:00:53 - Trainer - INFO - Epoch 4/100 - Val Loss: 0.167981, Pos: 0.055307, Yaw: 0.112673
+2026-01-02 20:00:53 - Trainer - INFO - Patience: 1/20
+2026-01-02 20:01:18 - Trainer - INFO - Epoch 5/100 - Train Loss: 0.476345, Pos: 0.111297, Yaw: 0.365048
+2026-01-02 20:01:20 - Trainer - INFO - Epoch 5/100 - Val Loss: 0.177695, Pos: 0.069177, Yaw: 0.108517
+2026-01-02 20:01:20 - Trainer - INFO - Patience: 2/20
+2026-01-02 20:01:44 - Trainer - INFO - Epoch 6/100 - Train Loss: 0.504252, Pos: 0.114233, Yaw: 0.390019
+2026-01-02 20:01:47 - Trainer - INFO - Epoch 6/100 - Val Loss: 0.236429, Pos: 0.058901, Yaw: 0.177527
+2026-01-02 20:01:47 - Trainer - INFO - Patience: 3/20
+2026-01-02 20:02:11 - Trainer - INFO - Epoch 7/100 - Train Loss: 0.380533, Pos: 0.103572, Yaw: 0.276961
+2026-01-02 20:02:14 - Trainer - INFO - Epoch 7/100 - Val Loss: 0.123333, Pos: 0.046131, Yaw: 0.077202
+2026-01-02 20:02:14 - Trainer - INFO - ✓ New best model saved! Val Loss: 0.123333
+2026-01-02 20:02:39 - Trainer - INFO - Epoch 8/100 - Train Loss: 0.335300, Pos: 0.097034, Yaw: 0.238265
+2026-01-02 20:02:41 - Trainer - INFO - Epoch 8/100 - Val Loss: 0.082013, Pos: 0.040666, Yaw: 0.041347
+2026-01-02 20:02:41 - Trainer - INFO - ✓ New best model saved! Val Loss: 0.082013

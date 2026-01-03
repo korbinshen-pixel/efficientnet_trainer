@@ -1,0 +1,188 @@
+2026-01-02 18:12:32,064 - __main__ - INFO - ================================================================================
+2026-01-02 18:12:32,064 - __main__ - INFO - Pallet Pose Estimation Training (EfficientNet-B3 + Euler Angles)
+2026-01-02 18:12:32,064 - __main__ - INFO - ================================================================================
+2026-01-02 18:12:32,064 - __main__ - INFO - Loading dataset...
+2026-01-02 18:12:32,236 - __main__ - INFO - Creating model...
+2026-01-02 18:12:32,457 - __main__ - INFO - Model: PalletPoseEstimator_EfficientNetB3_RGB_Euler
+2026-01-02 18:12:32,457 - __main__ - INFO - Pretrained: True
+2026-01-02 18:12:32,459 - __main__ - INFO - Total parameters: 12,537,390
+2026-01-02 18:12:32,459 - __main__ - INFO - Trainable parameters: 12,537,390
+2026-01-02 18:12:32,715 - __main__ - INFO - Starting training...
+2026-01-02 18:12:32,716 - __main__ - INFO - Device: cuda
+2026-01-02 18:12:32,716 - __main__ - INFO - Model: PalletPoseEstimator_EfficientNetB3_RGB_Euler
+2026-01-02 18:12:32,716 - __main__ - INFO - Backbone: efficientnet-b3
+2026-01-02 18:13:08,123 - __main__ - INFO - Epoch 1 Train - Loss: 0.618366, Pos: 0.383502, Rot: 0.234865
+2026-01-02 18:13:10,974 - __main__ - INFO - Epoch 1 Valid - Loss: 0.177873, Pos: 0.069928, Rot: 0.107945
+2026-01-02 18:13:10,974 - __main__ - INFO -   Position Error - Mean: 58.49cm, Median: 54.91cm
+2026-01-02 18:13:10,974 - __main__ - INFO -   Rotation Error - Mean: 14.81°, Median: 13.04°
+2026-01-02 18:13:11,298 - __main__ - INFO - ✓ Best model saved! Pos: 58.49cm, Rot: 14.81°
+2026-01-02 18:13:44,991 - __main__ - INFO - Epoch 2 Train - Loss: 0.117390, Pos: 0.058367, Rot: 0.059024
+2026-01-02 18:13:47,799 - __main__ - INFO - Epoch 2 Valid - Loss: 0.045537, Pos: 0.025417, Rot: 0.020120
+2026-01-02 18:13:47,800 - __main__ - INFO -   Position Error - Mean: 32.22cm, Median: 27.14cm
+2026-01-02 18:13:47,800 - __main__ - INFO -   Rotation Error - Mean: 5.31°, Median: 4.23°
+2026-01-02 18:13:48,150 - __main__ - INFO - ✓ Best model saved! Pos: 32.22cm, Rot: 5.31°
+2026-01-02 18:14:22,192 - __main__ - INFO - Epoch 3 Train - Loss: 0.092434, Pos: 0.047539, Rot: 0.044895
+2026-01-02 18:14:25,010 - __main__ - INFO - Epoch 3 Valid - Loss: 0.131337, Pos: 0.061000, Rot: 0.070337
+2026-01-02 18:14:25,010 - __main__ - INFO -   Position Error - Mean: 49.84cm, Median: 40.59cm
+2026-01-02 18:14:25,011 - __main__ - INFO -   Rotation Error - Mean: 10.78°, Median: 8.81°
+2026-01-02 18:14:25,011 - __main__ - INFO - No improvement. Patience: 1/20
+2026-01-02 18:14:59,033 - __main__ - INFO - Epoch 4 Train - Loss: 0.090913, Pos: 0.043991, Rot: 0.046922
+2026-01-02 18:15:01,799 - __main__ - INFO - Epoch 4 Valid - Loss: 0.110048, Pos: 0.031743, Rot: 0.078305
+2026-01-02 18:15:01,799 - __main__ - INFO -   Position Error - Mean: 35.31cm, Median: 28.43cm
+2026-01-02 18:15:01,799 - __main__ - INFO -   Rotation Error - Mean: 10.38°, Median: 7.61°
+2026-01-02 18:15:01,800 - __main__ - INFO - No improvement. Patience: 2/20
+2026-01-02 18:15:35,900 - __main__ - INFO - Epoch 5 Train - Loss: 0.117020, Pos: 0.046138, Rot: 0.070882
+2026-01-02 18:15:38,602 - __main__ - INFO - Epoch 5 Valid - Loss: 0.151022, Pos: 0.133481, Rot: 0.017541
+2026-01-02 18:15:38,602 - __main__ - INFO -   Position Error - Mean: 59.33cm, Median: 29.73cm
+2026-01-02 18:15:38,603 - __main__ - INFO -   Rotation Error - Mean: 4.09°, Median: 2.68°
+2026-01-02 18:15:38,603 - __main__ - INFO - No improvement. Patience: 3/20
+2026-01-02 18:16:12,843 - __main__ - INFO - Epoch 6 Train - Loss: 0.063345, Pos: 0.031413, Rot: 0.031932
+2026-01-02 18:16:15,469 - __main__ - INFO - Epoch 6 Valid - Loss: 0.216237, Pos: 0.143462, Rot: 0.072775
+2026-01-02 18:16:15,469 - __main__ - INFO -   Position Error - Mean: 51.50cm, Median: 17.80cm
+2026-01-02 18:16:15,469 - __main__ - INFO -   Rotation Error - Mean: 8.03°, Median: 1.87°
+2026-01-02 18:16:15,470 - __main__ - INFO - No improvement. Patience: 4/20
+2026-01-02 18:16:49,552 - __main__ - INFO - Epoch 7 Train - Loss: 0.041658, Pos: 0.024821, Rot: 0.016837
+2026-01-02 18:16:52,269 - __main__ - INFO - Epoch 7 Valid - Loss: 0.021312, Pos: 0.015348, Rot: 0.005964
+2026-01-02 18:16:52,269 - __main__ - INFO -   Position Error - Mean: 22.89cm, Median: 19.07cm
+2026-01-02 18:16:52,270 - __main__ - INFO -   Rotation Error - Mean: 2.18°, Median: 1.56°
+2026-01-02 18:16:52,617 - __main__ - INFO - ✓ Best model saved! Pos: 22.89cm, Rot: 2.18°
+2026-01-02 18:17:26,673 - __main__ - INFO - Epoch 8 Train - Loss: 0.040908, Pos: 0.023363, Rot: 0.017545
+2026-01-02 18:17:29,256 - __main__ - INFO - Epoch 8 Valid - Loss: 0.030478, Pos: 0.022857, Rot: 0.007621
+2026-01-02 18:17:29,256 - __main__ - INFO -   Position Error - Mean: 24.19cm, Median: 17.76cm
+2026-01-02 18:17:29,257 - __main__ - INFO -   Rotation Error - Mean: 2.77°, Median: 2.23°
+2026-01-02 18:17:29,257 - __main__ - INFO - No improvement. Patience: 1/20
+2026-01-02 18:18:03,298 - __main__ - INFO - Epoch 9 Train - Loss: 0.040036, Pos: 0.023757, Rot: 0.016278
+2026-01-02 18:18:05,952 - __main__ - INFO - Epoch 9 Valid - Loss: 0.028191, Pos: 0.014898, Rot: 0.013293
+2026-01-02 18:18:05,952 - __main__ - INFO -   Position Error - Mean: 19.93cm, Median: 15.96cm
+2026-01-02 18:18:05,952 - __main__ - INFO -   Rotation Error - Mean: 2.82°, Median: 1.59°
+2026-01-02 18:18:05,953 - __main__ - INFO - No improvement. Patience: 2/20
+2026-01-02 18:18:40,018 - __main__ - INFO - Epoch 10 Train - Loss: 0.045818, Pos: 0.025740, Rot: 0.020078
+2026-01-02 18:18:42,647 - __main__ - INFO - Epoch 10 Valid - Loss: 0.014834, Pos: 0.008989, Rot: 0.005845
+2026-01-02 18:18:42,647 - __main__ - INFO -   Position Error - Mean: 16.37cm, Median: 13.95cm
+2026-01-02 18:18:42,647 - __main__ - INFO -   Rotation Error - Mean: 2.50°, Median: 1.99°
+2026-01-02 18:18:42,985 - __main__ - INFO - ✓ Best model saved! Pos: 16.37cm, Rot: 2.50°
+2026-01-02 18:18:43,298 - __main__ - INFO - Checkpoint saved to /home/usr2/data_trainer_ws/efficientnet/training/checkpoints/checkpoint_epoch_010.pth
+2026-01-02 18:19:17,321 - __main__ - INFO - Epoch 11 Train - Loss: 0.035307, Pos: 0.021174, Rot: 0.014133
+2026-01-02 18:19:19,942 - __main__ - INFO - Epoch 11 Valid - Loss: 0.011944, Pos: 0.007740, Rot: 0.004204
+2026-01-02 18:19:19,942 - __main__ - INFO -   Position Error - Mean: 14.11cm, Median: 11.24cm
+2026-01-02 18:19:19,943 - __main__ - INFO -   Rotation Error - Mean: 1.69°, Median: 1.18°
+2026-01-02 18:19:20,315 - __main__ - INFO - ✓ Best model saved! Pos: 14.11cm, Rot: 1.69°
+2026-01-02 18:19:54,446 - __main__ - INFO - Epoch 12 Train - Loss: 0.037152, Pos: 0.021304, Rot: 0.015848
+2026-01-02 18:19:57,101 - __main__ - INFO - Epoch 12 Valid - Loss: 0.015171, Pos: 0.011478, Rot: 0.003694
+2026-01-02 18:19:57,102 - __main__ - INFO -   Position Error - Mean: 20.82cm, Median: 18.89cm
+2026-01-02 18:19:57,102 - __main__ - INFO -   Rotation Error - Mean: 1.58°, Median: 1.15°
+2026-01-02 18:19:57,103 - __main__ - INFO - No improvement. Patience: 1/20
+2026-01-02 18:20:31,158 - __main__ - INFO - Epoch 13 Train - Loss: 0.030794, Pos: 0.018512, Rot: 0.012282
+2026-01-02 18:20:33,736 - __main__ - INFO - Epoch 13 Valid - Loss: 0.015096, Pos: 0.010915, Rot: 0.004181
+2026-01-02 18:20:33,737 - __main__ - INFO -   Position Error - Mean: 18.62cm, Median: 14.24cm
+2026-01-02 18:20:33,737 - __main__ - INFO -   Rotation Error - Mean: 2.10°, Median: 1.76°
+2026-01-02 18:20:33,738 - __main__ - INFO - No improvement. Patience: 2/20
+2026-01-02 18:21:07,859 - __main__ - INFO - Epoch 14 Train - Loss: 0.028056, Pos: 0.016682, Rot: 0.011374
+2026-01-02 18:21:10,522 - __main__ - INFO - Epoch 14 Valid - Loss: 0.010435, Pos: 0.005117, Rot: 0.005318
+2026-01-02 18:21:10,522 - __main__ - INFO -   Position Error - Mean: 10.18cm, Median: 8.11cm
+2026-01-02 18:21:10,523 - __main__ - INFO -   Rotation Error - Mean: 2.46°, Median: 2.07°
+2026-01-02 18:21:10,859 - __main__ - INFO - ✓ Best model saved! Pos: 10.18cm, Rot: 2.46°
+2026-01-02 18:21:45,016 - __main__ - INFO - Epoch 15 Train - Loss: 0.036309, Pos: 0.020304, Rot: 0.016005
+2026-01-02 18:21:47,610 - __main__ - INFO - Epoch 15 Valid - Loss: 0.067377, Pos: 0.026508, Rot: 0.040869
+2026-01-02 18:21:47,611 - __main__ - INFO -   Position Error - Mean: 30.23cm, Median: 23.88cm
+2026-01-02 18:21:47,611 - __main__ - INFO -   Rotation Error - Mean: 7.16°, Median: 5.16°
+2026-01-02 18:21:47,612 - __main__ - INFO - No improvement. Patience: 1/20
+2026-01-02 18:22:21,799 - __main__ - INFO - Epoch 16 Train - Loss: 0.052772, Pos: 0.027506, Rot: 0.025266
+2026-01-02 18:22:24,449 - __main__ - INFO - Epoch 16 Valid - Loss: 0.065459, Pos: 0.036944, Rot: 0.028514
+2026-01-02 18:22:24,449 - __main__ - INFO -   Position Error - Mean: 37.36cm, Median: 30.15cm
+2026-01-02 18:22:24,449 - __main__ - INFO -   Rotation Error - Mean: 6.15°, Median: 5.18°
+2026-01-02 18:22:24,450 - __main__ - INFO - No improvement. Patience: 2/20
+2026-01-02 18:22:58,590 - __main__ - INFO - Epoch 17 Train - Loss: 0.041094, Pos: 0.022921, Rot: 0.018173
+2026-01-02 18:23:01,236 - __main__ - INFO - Epoch 17 Valid - Loss: 0.177599, Pos: 0.136618, Rot: 0.040981
+2026-01-02 18:23:01,237 - __main__ - INFO -   Position Error - Mean: 53.90cm, Median: 18.50cm
+2026-01-02 18:23:01,237 - __main__ - INFO -   Rotation Error - Mean: 6.21°, Median: 3.25°
+2026-01-02 18:23:01,237 - __main__ - INFO - No improvement. Patience: 3/20
+2026-01-02 18:23:35,444 - __main__ - INFO - Epoch 18 Train - Loss: 0.035581, Pos: 0.019938, Rot: 0.015644
+2026-01-02 18:23:38,066 - __main__ - INFO - Epoch 18 Valid - Loss: 1.518057, Pos: 1.486960, Rot: 0.031097
+2026-01-02 18:23:38,067 - __main__ - INFO -   Position Error - Mean: 396.00cm, Median: 19.91cm
+2026-01-02 18:23:38,067 - __main__ - INFO -   Rotation Error - Mean: 4.57°, Median: 2.33°
+2026-01-02 18:23:38,067 - __main__ - INFO - No improvement. Patience: 4/20
+2026-01-02 18:24:12,208 - __main__ - INFO - Epoch 19 Train - Loss: 0.031052, Pos: 0.018292, Rot: 0.012761
+2026-01-02 18:24:14,870 - __main__ - INFO - Epoch 19 Valid - Loss: 0.050192, Pos: 0.032274, Rot: 0.017919
+2026-01-02 18:24:14,870 - __main__ - INFO -   Position Error - Mean: 30.11cm, Median: 20.18cm
+2026-01-02 18:24:14,871 - __main__ - INFO -   Rotation Error - Mean: 3.54°, Median: 1.88°
+2026-01-02 18:24:14,871 - __main__ - INFO - No improvement. Patience: 5/20
+2026-01-02 18:24:48,982 - __main__ - INFO - Epoch 20 Train - Loss: 0.031156, Pos: 0.017735, Rot: 0.013422
+2026-01-02 18:24:51,567 - __main__ - INFO - Epoch 20 Valid - Loss: 0.025171, Pos: 0.017786, Rot: 0.007385
+2026-01-02 18:24:51,567 - __main__ - INFO -   Position Error - Mean: 25.15cm, Median: 22.16cm
+2026-01-02 18:24:51,567 - __main__ - INFO -   Rotation Error - Mean: 2.74°, Median: 2.18°
+2026-01-02 18:24:51,568 - __main__ - INFO - No improvement. Patience: 6/20
+2026-01-02 18:24:51,879 - __main__ - INFO - Checkpoint saved to /home/usr2/data_trainer_ws/efficientnet/training/checkpoints/checkpoint_epoch_020.pth
+2026-01-02 18:25:25,890 - __main__ - INFO - Epoch 21 Train - Loss: 0.026558, Pos: 0.016234, Rot: 0.010325
+2026-01-02 18:25:28,491 - __main__ - INFO - Epoch 21 Valid - Loss: 0.010818, Pos: 0.005486, Rot: 0.005332
+2026-01-02 18:25:28,492 - __main__ - INFO -   Position Error - Mean: 10.79cm, Median: 8.45cm
+2026-01-02 18:25:28,492 - __main__ - INFO -   Rotation Error - Mean: 2.37°, Median: 2.07°
+2026-01-02 18:25:28,492 - __main__ - INFO - No improvement. Patience: 7/20
+2026-01-02 18:26:02,614 - __main__ - INFO - Epoch 22 Train - Loss: 0.034771, Pos: 0.020226, Rot: 0.014545
+2026-01-02 18:26:05,269 - __main__ - INFO - Epoch 22 Valid - Loss: 0.022192, Pos: 0.012505, Rot: 0.009687
+2026-01-02 18:26:05,269 - __main__ - INFO -   Position Error - Mean: 19.94cm, Median: 17.16cm
+2026-01-02 18:26:05,269 - __main__ - INFO -   Rotation Error - Mean: 3.14°, Median: 2.54°
+2026-01-02 18:26:05,270 - __main__ - INFO - No improvement. Patience: 8/20
+2026-01-02 18:26:39,536 - __main__ - INFO - Epoch 23 Train - Loss: 0.039905, Pos: 0.022881, Rot: 0.017024
+2026-01-02 18:26:42,213 - __main__ - INFO - Epoch 23 Valid - Loss: 0.204258, Pos: 0.057906, Rot: 0.146352
+2026-01-02 18:26:42,213 - __main__ - INFO -   Position Error - Mean: 45.96cm, Median: 32.92cm
+2026-01-02 18:26:42,213 - __main__ - INFO -   Rotation Error - Mean: 16.69°, Median: 15.50°
+2026-01-02 18:26:42,214 - __main__ - INFO - No improvement. Patience: 9/20
+2026-01-02 18:27:16,342 - __main__ - INFO - Epoch 24 Train - Loss: 0.087663, Pos: 0.040268, Rot: 0.047396
+2026-01-02 18:27:19,020 - __main__ - INFO - Epoch 24 Valid - Loss: 0.119033, Pos: 0.083545, Rot: 0.035488
+2026-01-02 18:27:19,020 - __main__ - INFO -   Position Error - Mean: 51.55cm, Median: 29.69cm
+2026-01-02 18:27:19,020 - __main__ - INFO -   Rotation Error - Mean: 5.34°, Median: 2.61°
+2026-01-02 18:27:19,021 - __main__ - INFO - No improvement. Patience: 10/20
+2026-01-02 18:27:53,090 - __main__ - INFO - Epoch 25 Train - Loss: 0.046509, Pos: 0.025200, Rot: 0.021309
+2026-01-02 18:27:55,708 - __main__ - INFO - Epoch 25 Valid - Loss: 2.190041, Pos: 1.974523, Rot: 0.215519
+2026-01-02 18:27:55,708 - __main__ - INFO -   Position Error - Mean: 465.55cm, Median: 66.22cm
+2026-01-02 18:27:55,709 - __main__ - INFO -   Rotation Error - Mean: 21.52°, Median: 14.43°
+2026-01-02 18:27:55,709 - __main__ - INFO - No improvement. Patience: 11/20
+2026-01-02 18:28:29,796 - __main__ - INFO - Epoch 26 Train - Loss: 0.041253, Pos: 0.022012, Rot: 0.019241
+2026-01-02 18:28:32,448 - __main__ - INFO - Epoch 26 Valid - Loss: 0.062109, Pos: 0.036861, Rot: 0.025248
+2026-01-02 18:28:32,448 - __main__ - INFO -   Position Error - Mean: 29.94cm, Median: 18.84cm
+2026-01-02 18:28:32,448 - __main__ - INFO -   Rotation Error - Mean: 5.63°, Median: 4.28°
+2026-01-02 18:28:32,449 - __main__ - INFO - No improvement. Patience: 12/20
+2026-01-02 18:29:06,483 - __main__ - INFO - Epoch 27 Train - Loss: 0.044605, Pos: 0.023837, Rot: 0.020768
+2026-01-02 18:29:09,078 - __main__ - INFO - Epoch 27 Valid - Loss: 0.068917, Pos: 0.050288, Rot: 0.018630
+2026-01-02 18:29:09,078 - __main__ - INFO -   Position Error - Mean: 34.72cm, Median: 22.14cm
+2026-01-02 18:29:09,078 - __main__ - INFO -   Rotation Error - Mean: 4.26°, Median: 3.21°
+2026-01-02 18:29:09,079 - __main__ - INFO - No improvement. Patience: 13/20
+2026-01-02 18:29:43,155 - __main__ - INFO - Epoch 28 Train - Loss: 0.040555, Pos: 0.019446, Rot: 0.021109
+2026-01-02 18:29:45,734 - __main__ - INFO - Epoch 28 Valid - Loss: 0.023092, Pos: 0.014751, Rot: 0.008341
+2026-01-02 18:29:45,734 - __main__ - INFO -   Position Error - Mean: 16.40cm, Median: 11.38cm
+2026-01-02 18:29:45,734 - __main__ - INFO -   Rotation Error - Mean: 2.68°, Median: 1.87°
+2026-01-02 18:29:45,735 - __main__ - INFO - No improvement. Patience: 14/20
+2026-01-02 18:30:19,817 - __main__ - INFO - Epoch 29 Train - Loss: 0.033164, Pos: 0.017658, Rot: 0.015507
+2026-01-02 18:30:22,424 - __main__ - INFO - Epoch 29 Valid - Loss: 0.027385, Pos: 0.011765, Rot: 0.015621
+2026-01-02 18:30:22,424 - __main__ - INFO -   Position Error - Mean: 19.11cm, Median: 15.21cm
+2026-01-02 18:30:22,424 - __main__ - INFO -   Rotation Error - Mean: 4.30°, Median: 3.63°
+2026-01-02 18:30:22,425 - __main__ - INFO - No improvement. Patience: 15/20
+2026-01-02 18:30:56,492 - __main__ - INFO - Epoch 30 Train - Loss: 0.036086, Pos: 0.018847, Rot: 0.017239
+2026-01-02 18:30:59,045 - __main__ - INFO - Epoch 30 Valid - Loss: 0.023492, Pos: 0.013885, Rot: 0.009607
+2026-01-02 18:30:59,045 - __main__ - INFO -   Position Error - Mean: 18.82cm, Median: 14.97cm
+2026-01-02 18:30:59,045 - __main__ - INFO -   Rotation Error - Mean: 2.86°, Median: 2.05°
+2026-01-02 18:30:59,046 - __main__ - INFO - No improvement. Patience: 16/20
+2026-01-02 18:30:59,466 - __main__ - INFO - Checkpoint saved to /home/usr2/data_trainer_ws/efficientnet/training/checkpoints/checkpoint_epoch_030.pth
+2026-01-02 18:31:33,528 - __main__ - INFO - Epoch 31 Train - Loss: 0.030072, Pos: 0.015944, Rot: 0.014128
+2026-01-02 18:31:36,081 - __main__ - INFO - Epoch 31 Valid - Loss: 0.019632, Pos: 0.005872, Rot: 0.013760
+2026-01-02 18:31:36,081 - __main__ - INFO -   Position Error - Mean: 11.97cm, Median: 9.61cm
+2026-01-02 18:31:36,081 - __main__ - INFO -   Rotation Error - Mean: 4.40°, Median: 3.80°
+2026-01-02 18:31:36,082 - __main__ - INFO - No improvement. Patience: 17/20
+2026-01-02 18:32:10,184 - __main__ - INFO - Epoch 32 Train - Loss: 0.029977, Pos: 0.015481, Rot: 0.014496
+2026-01-02 18:32:12,794 - __main__ - INFO - Epoch 32 Valid - Loss: 0.036987, Pos: 0.013089, Rot: 0.023898
+2026-01-02 18:32:12,795 - __main__ - INFO -   Position Error - Mean: 21.02cm, Median: 17.60cm
+2026-01-02 18:32:12,795 - __main__ - INFO -   Rotation Error - Mean: 5.77°, Median: 4.80°
+2026-01-02 18:32:12,795 - __main__ - INFO - No improvement. Patience: 18/20
+2026-01-02 18:32:46,866 - __main__ - INFO - Epoch 33 Train - Loss: 0.042587, Pos: 0.021306, Rot: 0.021281
+2026-01-02 18:32:49,486 - __main__ - INFO - Epoch 33 Valid - Loss: 0.034984, Pos: 0.021042, Rot: 0.013943
+2026-01-02 18:32:49,486 - __main__ - INFO -   Position Error - Mean: 30.67cm, Median: 28.47cm
+2026-01-02 18:32:49,486 - __main__ - INFO -   Rotation Error - Mean: 4.36°, Median: 3.80°
+2026-01-02 18:32:49,487 - __main__ - INFO - No improvement. Patience: 19/20
+2026-01-02 18:33:23,538 - __main__ - INFO - Epoch 34 Train - Loss: 0.035283, Pos: 0.018550, Rot: 0.016732
+2026-01-02 18:33:26,156 - __main__ - INFO - Epoch 34 Valid - Loss: 0.012838, Pos: 0.006694, Rot: 0.006144
+2026-01-02 18:33:26,156 - __main__ - INFO -   Position Error - Mean: 13.63cm, Median: 11.22cm
+2026-01-02 18:33:26,157 - __main__ - INFO -   Rotation Error - Mean: 2.42°, Median: 1.97°
+2026-01-02 18:33:26,157 - __main__ - INFO - No improvement. Patience: 20/20
+2026-01-02 18:33:26,158 - __main__ - INFO - Early stopping at epoch 34
+2026-01-02 18:33:26,158 - __main__ - INFO - Training finished!

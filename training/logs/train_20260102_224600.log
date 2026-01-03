@@ -1,0 +1,474 @@
+2026-01-02 22:46:00 - Trainer - INFO - Model parameters: 12,536,876
+2026-01-02 22:46:00 - Trainer - INFO - Training samples: 8869
+2026-01-02 22:46:00 - Trainer - INFO - Validation samples: 1774
+2026-01-02 22:46:00 - Trainer - INFO - Starting training...
+2026-01-02 22:46:00 - Trainer - INFO - ============================================================
+2026-01-02 22:46:24 - Trainer - INFO - Epoch 1/1000 - Train Loss: 3.867443, Pos: 1.380253, Yaw: 1.243595
+2026-01-02 22:46:27 - Trainer - INFO - Epoch 1/1000 - Val Loss: 1.833113, Pos: 0.475983, Yaw: 0.678565
+2026-01-02 22:46:27 - Trainer - INFO -   Position Error (cm) - Mean: 82.42, Median: 77.24, Std: 44.49, 95th: 147.92
+2026-01-02 22:46:27 - Trainer - INFO -   Yaw Error (deg)     - Mean: 37.23, Median: 31.87, Std: 29.05, 95th: 92.33
+2026-01-02 22:46:27 - Trainer - INFO -   ✓ New best model saved! Val Loss: 1.833113, Pos Error: 82.42 cm, Yaw Error: 37.23°
+2026-01-02 22:46:50 - Trainer - INFO - Epoch 2/1000 - Train Loss: 2.277142, Pos: 0.573051, Yaw: 0.852045
+2026-01-02 22:46:53 - Trainer - INFO - Epoch 2/1000 - Val Loss: 1.792464, Pos: 0.489636, Yaw: 0.651414
+2026-01-02 22:46:53 - Trainer - INFO -   Position Error (cm) - Mean: 84.91, Median: 79.10, Std: 44.70, 95th: 157.05
+2026-01-02 22:46:53 - Trainer - INFO -   Yaw Error (deg)     - Mean: 36.16, Median: 31.38, Std: 28.97, 95th: 80.61
+2026-01-02 22:46:53 - Trainer - INFO -   ✓ New best model saved! Val Loss: 1.792464, Pos Error: 84.91 cm, Yaw Error: 36.16°
+2026-01-02 22:47:16 - Trainer - INFO - Epoch 3/1000 - Train Loss: 2.025384, Pos: 0.536392, Yaw: 0.744496
+2026-01-02 22:47:19 - Trainer - INFO - Epoch 3/1000 - Val Loss: 1.330550, Pos: 0.412446, Yaw: 0.459052
+2026-01-02 22:47:19 - Trainer - INFO -   Position Error (cm) - Mean: 79.77, Median: 80.25, Std: 39.15, 95th: 128.78
+2026-01-02 22:47:19 - Trainer - INFO -   Yaw Error (deg)     - Mean: 32.05, Median: 28.65, Std: 21.95, 95th: 72.34
+2026-01-02 22:47:20 - Trainer - INFO -   ✓ New best model saved! Val Loss: 1.330550, Pos Error: 79.77 cm, Yaw Error: 32.05°
+2026-01-02 22:47:43 - Trainer - INFO - Epoch 4/1000 - Train Loss: 1.656629, Pos: 0.485630, Yaw: 0.585499
+2026-01-02 22:47:46 - Trainer - INFO - Epoch 4/1000 - Val Loss: 1.249585, Pos: 0.415747, Yaw: 0.416919
+2026-01-02 22:47:46 - Trainer - INFO -   Position Error (cm) - Mean: 80.24, Median: 80.57, Std: 39.19, 95th: 126.57
+2026-01-02 22:47:46 - Trainer - INFO -   Yaw Error (deg)     - Mean: 30.85, Median: 28.64, Std: 20.46, 95th: 66.53
+2026-01-02 22:47:46 - Trainer - INFO -   ✓ New best model saved! Val Loss: 1.249585, Pos Error: 80.24 cm, Yaw Error: 30.85°
+2026-01-02 22:48:09 - Trainer - INFO - Epoch 5/1000 - Train Loss: 1.649902, Pos: 0.475216, Yaw: 0.587343
+2026-01-02 22:48:12 - Trainer - INFO - Epoch 5/1000 - Val Loss: 1.537826, Pos: 0.447221, Yaw: 0.545303
+2026-01-02 22:48:12 - Trainer - INFO -   Position Error (cm) - Mean: 81.10, Median: 78.70, Std: 43.60, 95th: 141.56
+2026-01-02 22:48:12 - Trainer - INFO -   Yaw Error (deg)     - Mean: 33.70, Median: 30.04, Std: 25.65, 95th: 74.12
+2026-01-02 22:48:12 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:48:35 - Trainer - INFO - Epoch 6/1000 - Train Loss: 1.690954, Pos: 0.483690, Yaw: 0.603632
+2026-01-02 22:48:39 - Trainer - INFO - Epoch 6/1000 - Val Loss: 2.649466, Pos: 1.246905, Yaw: 0.701281
+2026-01-02 22:48:39 - Trainer - INFO -   Position Error (cm) - Mean: 100.22, Median: 82.67, Std: 119.32, 95th: 208.86
+2026-01-02 22:48:39 - Trainer - INFO -   Yaw Error (deg)     - Mean: 36.73, Median: 30.91, Std: 30.97, 95th: 94.83
+2026-01-02 22:48:39 - Trainer - INFO -   Patience: 2/100
+2026-01-02 22:49:02 - Trainer - INFO - Epoch 7/1000 - Train Loss: 1.613683, Pos: 0.473895, Yaw: 0.569894
+2026-01-02 22:49:05 - Trainer - INFO - Epoch 7/1000 - Val Loss: 1.301370, Pos: 0.421044, Yaw: 0.440163
+2026-01-02 22:49:05 - Trainer - INFO -   Position Error (cm) - Mean: 79.55, Median: 78.85, Std: 40.73, 95th: 134.35
+2026-01-02 22:49:05 - Trainer - INFO -   Yaw Error (deg)     - Mean: 31.32, Median: 28.58, Std: 21.60, 95th: 66.77
+2026-01-02 22:49:05 - Trainer - INFO -   Patience: 3/100
+2026-01-02 22:49:28 - Trainer - INFO - Epoch 8/1000 - Train Loss: 1.587724, Pos: 0.465501, Yaw: 0.561111
+2026-01-02 22:49:31 - Trainer - INFO - Epoch 8/1000 - Val Loss: 2.786889, Pos: 0.970729, Yaw: 0.908080
+2026-01-02 22:49:31 - Trainer - INFO -   Position Error (cm) - Mean: 98.07, Median: 84.21, Std: 94.52, 95th: 234.93
+2026-01-02 22:49:31 - Trainer - INFO -   Yaw Error (deg)     - Mean: 40.47, Median: 32.03, Std: 36.66, 95th: 130.45
+2026-01-02 22:49:31 - Trainer - INFO -   Patience: 4/100
+2026-01-02 22:49:55 - Trainer - INFO - Epoch 9/1000 - Train Loss: 1.522341, Pos: 0.419215, Yaw: 0.551563
+2026-01-02 22:49:58 - Trainer - INFO - Epoch 9/1000 - Val Loss: 1.003115, Pos: 0.259760, Yaw: 0.371677
+2026-01-02 22:49:58 - Trainer - INFO -   Position Error (cm) - Mean: 57.56, Median: 53.67, Std: 38.96, 95th: 103.94
+2026-01-02 22:49:58 - Trainer - INFO -   Yaw Error (deg)     - Mean: 29.69, Median: 28.91, Std: 18.41, 95th: 57.19
+2026-01-02 22:49:58 - Trainer - INFO -   ✓ New best model saved! Val Loss: 1.003115, Pos Error: 57.56 cm, Yaw Error: 29.69°
+2026-01-02 22:50:21 - Trainer - INFO - Epoch 10/1000 - Train Loss: 1.187209, Pos: 0.293561, Yaw: 0.446824
+2026-01-02 22:50:25 - Trainer - INFO - Epoch 10/1000 - Val Loss: 0.630468, Pos: 0.221511, Yaw: 0.204479
+2026-01-02 22:50:25 - Trainer - INFO -   Position Error (cm) - Mean: 52.28, Median: 46.90, Std: 36.63, 95th: 98.24
+2026-01-02 22:50:25 - Trainer - INFO -   Yaw Error (deg)     - Mean: 20.09, Median: 17.31, Std: 16.39, 95th: 46.61
+2026-01-02 22:50:25 - Trainer - INFO - Saved checkpoint: /home/usr2/data_trainer_ws/efficientnet/training/checkpoints/checkpoint_epoch_10.pth
+2026-01-02 22:50:25 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.630468, Pos Error: 52.28 cm, Yaw Error: 20.09°
+2026-01-02 22:50:48 - Trainer - INFO - Epoch 11/1000 - Train Loss: 0.750244, Pos: 0.237547, Yaw: 0.256348
+2026-01-02 22:50:52 - Trainer - INFO - Epoch 11/1000 - Val Loss: 1.694791, Pos: 1.485853, Yaw: 0.104469
+2026-01-02 22:50:52 - Trainer - INFO -   Position Error (cm) - Mean: 38.62, Median: 29.20, Std: 131.58, 95th: 70.52
+2026-01-02 22:50:52 - Trainer - INFO -   Yaw Error (deg)     - Mean: 13.45, Median: 10.57, Std: 12.76, 95th: 33.65
+2026-01-02 22:50:52 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:51:15 - Trainer - INFO - Epoch 12/1000 - Train Loss: 0.496645, Pos: 0.177302, Yaw: 0.159672
+2026-01-02 22:51:18 - Trainer - INFO - Epoch 12/1000 - Val Loss: 0.220885, Pos: 0.099584, Yaw: 0.060651
+2026-01-02 22:51:18 - Trainer - INFO -   Position Error (cm) - Mean: 28.73, Median: 23.50, Std: 28.48, 95th: 58.15
+2026-01-02 22:51:18 - Trainer - INFO -   Yaw Error (deg)     - Mean: 10.75, Median: 9.44, Std: 9.17, 95th: 22.62
+2026-01-02 22:51:18 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.220885, Pos Error: 28.73 cm, Yaw Error: 10.75°
+2026-01-02 22:51:42 - Trainer - INFO - Epoch 13/1000 - Train Loss: 0.395509, Pos: 0.145025, Yaw: 0.125242
+2026-01-02 22:51:45 - Trainer - INFO - Epoch 13/1000 - Val Loss: 0.121697, Pos: 0.071648, Yaw: 0.025025
+2026-01-02 22:51:45 - Trainer - INFO -   Position Error (cm) - Mean: 21.57, Median: 17.63, Std: 24.66, 95th: 37.51
+2026-01-02 22:51:45 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.10, Median: 3.74, Std: 7.53, 95th: 11.55
+2026-01-02 22:51:45 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.121697, Pos Error: 21.57 cm, Yaw Error: 5.10°
+2026-01-02 22:52:09 - Trainer - INFO - Epoch 14/1000 - Train Loss: 0.421002, Pos: 0.149490, Yaw: 0.135756
+2026-01-02 22:52:12 - Trainer - INFO - Epoch 14/1000 - Val Loss: 0.132443, Pos: 0.069466, Yaw: 0.031488
+2026-01-02 22:52:12 - Trainer - INFO -   Position Error (cm) - Mean: 20.41, Median: 16.49, Std: 24.53, 95th: 37.50
+2026-01-02 22:52:12 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.18, Median: 3.37, Std: 8.79, 95th: 12.35
+2026-01-02 22:52:12 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:52:35 - Trainer - INFO - Epoch 15/1000 - Train Loss: 0.385282, Pos: 0.134973, Yaw: 0.125155
+2026-01-02 22:52:39 - Trainer - INFO - Epoch 15/1000 - Val Loss: 0.124711, Pos: 0.078646, Yaw: 0.023033
+2026-01-02 22:52:39 - Trainer - INFO -   Position Error (cm) - Mean: 26.08, Median: 22.81, Std: 23.16, 95th: 44.36
+2026-01-02 22:52:39 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.17, Median: 3.97, Std: 7.02, 95th: 11.44
+2026-01-02 22:52:39 - Trainer - INFO -   Patience: 2/100
+2026-01-02 22:53:02 - Trainer - INFO - Epoch 16/1000 - Train Loss: 0.326839, Pos: 0.122313, Yaw: 0.102263
+2026-01-02 22:53:05 - Trainer - INFO - Epoch 16/1000 - Val Loss: 0.104154, Pos: 0.059745, Yaw: 0.022204
+2026-01-02 22:53:05 - Trainer - INFO -   Position Error (cm) - Mean: 16.88, Median: 12.71, Std: 23.08, 95th: 32.68
+2026-01-02 22:53:05 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.77, Median: 3.68, Std: 7.11, 95th: 10.25
+2026-01-02 22:53:06 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.104154, Pos Error: 16.88 cm, Yaw Error: 4.77°
+2026-01-02 22:53:29 - Trainer - INFO - Epoch 17/1000 - Train Loss: 0.317945, Pos: 0.118585, Yaw: 0.099680
+2026-01-02 22:53:32 - Trainer - INFO - Epoch 17/1000 - Val Loss: 0.215536, Pos: 0.147195, Yaw: 0.034171
+2026-01-02 22:53:32 - Trainer - INFO -   Position Error (cm) - Mean: 22.01, Median: 15.28, Std: 43.70, 95th: 33.78
+2026-01-02 22:53:32 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.13, Median: 2.37, Std: 9.66, 95th: 9.15
+2026-01-02 22:53:32 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:53:56 - Trainer - INFO - Epoch 18/1000 - Train Loss: 0.349419, Pos: 0.124398, Yaw: 0.112511
+2026-01-02 22:53:59 - Trainer - INFO - Epoch 18/1000 - Val Loss: 0.119454, Pos: 0.056294, Yaw: 0.031580
+2026-01-02 22:53:59 - Trainer - INFO -   Position Error (cm) - Mean: 16.92, Median: 13.93, Std: 22.09, 95th: 28.78
+2026-01-02 22:53:59 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.94, Median: 3.06, Std: 8.95, 95th: 13.50
+2026-01-02 22:53:59 - Trainer - INFO -   Patience: 2/100
+2026-01-02 22:54:22 - Trainer - INFO - Epoch 19/1000 - Train Loss: 0.286616, Pos: 0.112126, Yaw: 0.087245
+2026-01-02 22:54:26 - Trainer - INFO - Epoch 19/1000 - Val Loss: 0.103403, Pos: 0.060564, Yaw: 0.021419
+2026-01-02 22:54:26 - Trainer - INFO -   Position Error (cm) - Mean: 17.34, Median: 13.10, Std: 23.68, 95th: 33.33
+2026-01-02 22:54:26 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.75, Median: 2.57, Std: 7.54, 95th: 8.92
+2026-01-02 22:54:26 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.103403, Pos Error: 17.34 cm, Yaw Error: 3.75°
+2026-01-02 22:54:49 - Trainer - INFO - Epoch 20/1000 - Train Loss: 0.285103, Pos: 0.108231, Yaw: 0.088436
+2026-01-02 22:54:53 - Trainer - INFO - Epoch 20/1000 - Val Loss: 0.106727, Pos: 0.058818, Yaw: 0.023954
+2026-01-02 22:54:53 - Trainer - INFO -   Position Error (cm) - Mean: 18.01, Median: 13.92, Std: 22.23, 95th: 35.04
+2026-01-02 22:54:53 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.04, Median: 3.92, Std: 7.33, 95th: 10.54
+2026-01-02 22:54:53 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:55:16 - Trainer - INFO - Epoch 21/1000 - Train Loss: 0.271134, Pos: 0.106152, Yaw: 0.082491
+2026-01-02 22:55:19 - Trainer - INFO - Epoch 21/1000 - Val Loss: 0.090975, Pos: 0.056194, Yaw: 0.017391
+2026-01-02 22:55:19 - Trainer - INFO -   Position Error (cm) - Mean: 15.62, Median: 12.07, Std: 22.82, 95th: 27.03
+2026-01-02 22:55:19 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.91, Median: 2.85, Std: 6.50, 95th: 9.39
+2026-01-02 22:55:20 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.090975, Pos Error: 15.62 cm, Yaw Error: 3.91°
+2026-01-02 22:55:43 - Trainer - INFO - Epoch 22/1000 - Train Loss: 0.296997, Pos: 0.108237, Yaw: 0.094380
+2026-01-02 22:55:46 - Trainer - INFO - Epoch 22/1000 - Val Loss: 0.094311, Pos: 0.056627, Yaw: 0.018842
+2026-01-02 22:55:46 - Trainer - INFO -   Position Error (cm) - Mean: 16.50, Median: 13.74, Std: 22.55, 95th: 28.04
+2026-01-02 22:55:46 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.95, Median: 2.84, Std: 6.84, 95th: 8.91
+2026-01-02 22:55:46 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:56:11 - Trainer - INFO - Epoch 23/1000 - Train Loss: 0.258077, Pos: 0.098566, Yaw: 0.079755
+2026-01-02 22:56:14 - Trainer - INFO - Epoch 23/1000 - Val Loss: 0.087327, Pos: 0.049324, Yaw: 0.019002
+2026-01-02 22:56:14 - Trainer - INFO -   Position Error (cm) - Mean: 14.50, Median: 11.56, Std: 20.58, 95th: 25.65
+2026-01-02 22:56:14 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.15, Median: 4.35, Std: 6.01, 95th: 10.54
+2026-01-02 22:56:14 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.087327, Pos Error: 14.50 cm, Yaw Error: 5.15°
+2026-01-02 22:56:38 - Trainer - INFO - Epoch 24/1000 - Train Loss: 0.252673, Pos: 0.096620, Yaw: 0.078027
+2026-01-02 22:56:41 - Trainer - INFO - Epoch 24/1000 - Val Loss: 0.090956, Pos: 0.058326, Yaw: 0.016315
+2026-01-02 22:56:41 - Trainer - INFO -   Position Error (cm) - Mean: 17.57, Median: 13.76, Std: 22.19, 95th: 36.05
+2026-01-02 22:56:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.82, Median: 2.75, Std: 6.27, 95th: 9.28
+2026-01-02 22:56:41 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:57:04 - Trainer - INFO - Epoch 25/1000 - Train Loss: 0.256589, Pos: 0.097428, Yaw: 0.079581
+2026-01-02 22:57:08 - Trainer - INFO - Epoch 25/1000 - Val Loss: 0.114150, Pos: 0.054113, Yaw: 0.030019
+2026-01-02 22:57:08 - Trainer - INFO -   Position Error (cm) - Mean: 16.04, Median: 12.78, Std: 21.81, 95th: 29.06
+2026-01-02 22:57:08 - Trainer - INFO -   Yaw Error (deg)     - Mean: 7.73, Median: 7.34, Std: 6.25, 95th: 14.70
+2026-01-02 22:57:08 - Trainer - INFO -   Patience: 2/100
+2026-01-02 22:57:31 - Trainer - INFO - Epoch 26/1000 - Train Loss: 0.242768, Pos: 0.093547, Yaw: 0.074611
+2026-01-02 22:57:34 - Trainer - INFO - Epoch 26/1000 - Val Loss: 0.084313, Pos: 0.051814, Yaw: 0.016249
+2026-01-02 22:57:34 - Trainer - INFO -   Position Error (cm) - Mean: 14.09, Median: 10.09, Std: 21.91, 95th: 29.86
+2026-01-02 22:57:34 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.50, Median: 3.70, Std: 5.78, 95th: 9.44
+2026-01-02 22:57:34 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.084313, Pos Error: 14.09 cm, Yaw Error: 4.50°
+2026-01-02 22:57:58 - Trainer - INFO - Epoch 27/1000 - Train Loss: 0.255217, Pos: 0.096315, Yaw: 0.079451
+2026-01-02 22:58:01 - Trainer - INFO - Epoch 27/1000 - Val Loss: 0.127436, Pos: 0.075514, Yaw: 0.025961
+2026-01-02 22:58:01 - Trainer - INFO -   Position Error (cm) - Mean: 23.90, Median: 20.68, Std: 23.14, 95th: 42.67
+2026-01-02 22:58:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.92, Median: 4.85, Std: 7.11, 95th: 12.31
+2026-01-02 22:58:01 - Trainer - INFO -   Patience: 1/100
+2026-01-02 22:58:24 - Trainer - INFO - Epoch 28/1000 - Train Loss: 0.301722, Pos: 0.102138, Yaw: 0.099792
+2026-01-02 22:58:28 - Trainer - INFO - Epoch 28/1000 - Val Loss: 0.148935, Pos: 0.057097, Yaw: 0.045919
+2026-01-02 22:58:28 - Trainer - INFO -   Position Error (cm) - Mean: 17.76, Median: 14.61, Std: 21.31, 95th: 33.22
+2026-01-02 22:58:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 9.52, Median: 8.70, Std: 7.77, 95th: 20.10
+2026-01-02 22:58:28 - Trainer - INFO -   Patience: 2/100
+2026-01-02 22:58:51 - Trainer - INFO - Epoch 29/1000 - Train Loss: 0.281630, Pos: 0.101487, Yaw: 0.090072
+2026-01-02 22:58:54 - Trainer - INFO - Epoch 29/1000 - Val Loss: 0.105298, Pos: 0.062519, Yaw: 0.021390
+2026-01-02 22:58:54 - Trainer - INFO -   Position Error (cm) - Mean: 21.51, Median: 19.56, Std: 21.02, 95th: 34.68
+2026-01-02 22:58:54 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.28, Median: 4.37, Std: 6.53, 95th: 11.32
+2026-01-02 22:58:54 - Trainer - INFO -   Patience: 3/100
+2026-01-02 22:59:18 - Trainer - INFO - Epoch 30/1000 - Train Loss: 0.285453, Pos: 0.097553, Yaw: 0.093950
+2026-01-02 22:59:21 - Trainer - INFO - Epoch 30/1000 - Val Loss: 0.135296, Pos: 0.091052, Yaw: 0.022122
+2026-01-02 22:59:21 - Trainer - INFO -   Position Error (cm) - Mean: 17.54, Median: 11.96, Std: 34.07, 95th: 30.21
+2026-01-02 22:59:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.68, Median: 2.29, Std: 7.73, 95th: 8.81
+2026-01-02 22:59:21 - Trainer - INFO -   Patience: 4/100
+2026-01-02 22:59:44 - Trainer - INFO - Epoch 31/1000 - Train Loss: 0.247510, Pos: 0.090431, Yaw: 0.078539
+2026-01-02 22:59:48 - Trainer - INFO - Epoch 31/1000 - Val Loss: 0.089282, Pos: 0.051057, Yaw: 0.019112
+2026-01-02 22:59:48 - Trainer - INFO -   Position Error (cm) - Mean: 17.87, Median: 14.72, Std: 21.84, 95th: 33.48
+2026-01-02 22:59:48 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.50, Median: 3.34, Std: 6.55, 95th: 10.49
+2026-01-02 22:59:48 - Trainer - INFO -   Patience: 5/100
+2026-01-02 23:00:11 - Trainer - INFO - Epoch 32/1000 - Train Loss: 0.239754, Pos: 0.088068, Yaw: 0.075843
+2026-01-02 23:00:14 - Trainer - INFO - Epoch 32/1000 - Val Loss: 0.080230, Pos: 0.049714, Yaw: 0.015258
+2026-01-02 23:00:14 - Trainer - INFO -   Position Error (cm) - Mean: 17.84, Median: 15.15, Std: 23.51, 95th: 29.81
+2026-01-02 23:00:14 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.38, Median: 2.44, Std: 6.25, 95th: 7.59
+2026-01-02 23:00:15 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.080230, Pos Error: 17.84 cm, Yaw Error: 3.38°
+2026-01-02 23:00:38 - Trainer - INFO - Epoch 33/1000 - Train Loss: 0.206827, Pos: 0.076364, Yaw: 0.065232
+2026-01-02 23:00:41 - Trainer - INFO - Epoch 33/1000 - Val Loss: 0.175805, Pos: 0.057990, Yaw: 0.058907
+2026-01-02 23:00:41 - Trainer - INFO -   Position Error (cm) - Mean: 20.87, Median: 16.63, Std: 25.31, 95th: 38.90
+2026-01-02 23:00:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.86, Median: 3.16, Std: 13.10, 95th: 8.64
+2026-01-02 23:00:41 - Trainer - INFO -   Patience: 1/100
+2026-01-02 23:01:05 - Trainer - INFO - Epoch 34/1000 - Train Loss: 0.241170, Pos: 0.081364, Yaw: 0.079903
+2026-01-02 23:01:08 - Trainer - INFO - Epoch 34/1000 - Val Loss: 0.092599, Pos: 0.045505, Yaw: 0.023547
+2026-01-02 23:01:08 - Trainer - INFO -   Position Error (cm) - Mean: 18.74, Median: 16.96, Std: 21.83, 95th: 30.21
+2026-01-02 23:01:08 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.06, Median: 4.03, Std: 7.21, 95th: 10.67
+2026-01-02 23:01:08 - Trainer - INFO -   Patience: 2/100
+2026-01-02 23:01:31 - Trainer - INFO - Epoch 35/1000 - Train Loss: 0.247460, Pos: 0.079997, Yaw: 0.083731
+2026-01-02 23:01:34 - Trainer - INFO - Epoch 35/1000 - Val Loss: 0.057240, Pos: 0.032316, Yaw: 0.012462
+2026-01-02 23:01:34 - Trainer - INFO -   Position Error (cm) - Mean: 13.35, Median: 10.28, Std: 20.20, 95th: 26.86
+2026-01-02 23:01:34 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.09, Median: 2.27, Std: 5.63, 95th: 6.72
+2026-01-02 23:01:35 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.057240, Pos Error: 13.35 cm, Yaw Error: 3.09°
+2026-01-02 23:01:58 - Trainer - INFO - Epoch 36/1000 - Train Loss: 0.232297, Pos: 0.080900, Yaw: 0.075699
+2026-01-02 23:02:01 - Trainer - INFO - Epoch 36/1000 - Val Loss: 0.133628, Pos: 0.048802, Yaw: 0.042413
+2026-01-02 23:02:01 - Trainer - INFO -   Position Error (cm) - Mean: 17.30, Median: 13.07, Std: 24.86, 95th: 33.53
+2026-01-02 23:02:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.10, Median: 3.16, Std: 10.70, 95th: 11.00
+2026-01-02 23:02:01 - Trainer - INFO -   Patience: 1/100
+2026-01-02 23:02:25 - Trainer - INFO - Epoch 37/1000 - Train Loss: 0.245086, Pos: 0.080462, Yaw: 0.082312
+2026-01-02 23:02:28 - Trainer - INFO - Epoch 37/1000 - Val Loss: 0.065101, Pos: 0.033108, Yaw: 0.015996
+2026-01-02 23:02:28 - Trainer - INFO -   Position Error (cm) - Mean: 11.83, Median: 8.37, Std: 20.26, 95th: 23.83
+2026-01-02 23:02:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.39, Median: 3.45, Std: 5.79, 95th: 10.20
+2026-01-02 23:02:28 - Trainer - INFO -   Patience: 2/100
+2026-01-02 23:02:51 - Trainer - INFO - Epoch 38/1000 - Train Loss: 0.217912, Pos: 0.074425, Yaw: 0.071744
+2026-01-02 23:02:54 - Trainer - INFO - Epoch 38/1000 - Val Loss: 0.082728, Pos: 0.038843, Yaw: 0.021943
+2026-01-02 23:02:54 - Trainer - INFO -   Position Error (cm) - Mean: 13.07, Median: 9.35, Std: 23.44, 95th: 28.42
+2026-01-02 23:02:54 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.77, Median: 4.66, Std: 6.25, 95th: 13.58
+2026-01-02 23:02:54 - Trainer - INFO -   Patience: 3/100
+2026-01-02 23:03:18 - Trainer - INFO - Epoch 39/1000 - Train Loss: 0.213613, Pos: 0.073359, Yaw: 0.070127
+2026-01-02 23:03:21 - Trainer - INFO - Epoch 39/1000 - Val Loss: 0.081753, Pos: 0.044460, Yaw: 0.018646
+2026-01-02 23:03:21 - Trainer - INFO -   Position Error (cm) - Mean: 17.74, Median: 13.71, Std: 22.66, 95th: 38.25
+2026-01-02 23:03:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.67, Median: 3.78, Std: 6.30, 95th: 10.23
+2026-01-02 23:03:21 - Trainer - INFO -   Patience: 4/100
+2026-01-02 23:03:44 - Trainer - INFO - Epoch 40/1000 - Train Loss: 0.251440, Pos: 0.081362, Yaw: 0.085039
+2026-01-02 23:03:48 - Trainer - INFO - Epoch 40/1000 - Val Loss: 0.107577, Pos: 0.036753, Yaw: 0.035412
+2026-01-02 23:03:48 - Trainer - INFO -   Position Error (cm) - Mean: 13.87, Median: 10.69, Std: 22.27, 95th: 27.79
+2026-01-02 23:03:48 - Trainer - INFO -   Yaw Error (deg)     - Mean: 7.46, Median: 6.44, Std: 7.82, 95th: 15.67
+2026-01-02 23:03:48 - Trainer - INFO -   Patience: 5/100
+2026-01-02 23:04:11 - Trainer - INFO - Epoch 41/1000 - Train Loss: 0.277506, Pos: 0.093731, Yaw: 0.091887
+2026-01-02 23:04:14 - Trainer - INFO - Epoch 41/1000 - Val Loss: 0.167101, Pos: 0.071267, Yaw: 0.047917
+2026-01-02 23:04:14 - Trainer - INFO -   Position Error (cm) - Mean: 20.72, Median: 15.94, Std: 28.18, 95th: 41.75
+2026-01-02 23:04:14 - Trainer - INFO -   Yaw Error (deg)     - Mean: 7.68, Median: 6.05, Std: 9.96, 95th: 17.22
+2026-01-02 23:04:14 - Trainer - INFO -   Learning rate reduced: 1.00e-03 -> 5.00e-04
+2026-01-02 23:04:14 - Trainer - INFO -   Patience: 6/100
+2026-01-02 23:04:37 - Trainer - INFO - Epoch 42/1000 - Train Loss: 0.233683, Pos: 0.074812, Yaw: 0.079435
+2026-01-02 23:04:41 - Trainer - INFO - Epoch 42/1000 - Val Loss: 0.064202, Pos: 0.035104, Yaw: 0.014549
+2026-01-02 23:04:41 - Trainer - INFO -   Position Error (cm) - Mean: 12.93, Median: 9.63, Std: 21.82, 95th: 25.54
+2026-01-02 23:04:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.39, Median: 2.42, Std: 6.05, 95th: 7.58
+2026-01-02 23:04:41 - Trainer - INFO -   Patience: 7/100
+2026-01-02 23:05:04 - Trainer - INFO - Epoch 43/1000 - Train Loss: 0.177386, Pos: 0.066946, Yaw: 0.055220
+2026-01-02 23:05:07 - Trainer - INFO - Epoch 43/1000 - Val Loss: 15.409286, Pos: 15.348052, Yaw: 0.030617
+2026-01-02 23:05:07 - Trainer - INFO -   Position Error (cm) - Mean: 37.67, Median: 11.98, Std: 555.12, 95th: 39.41
+2026-01-02 23:05:07 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.84, Median: 3.58, Std: 8.83, 95th: 9.76
+2026-01-02 23:05:07 - Trainer - INFO -   Patience: 8/100
+2026-01-02 23:05:31 - Trainer - INFO - Epoch 44/1000 - Train Loss: 0.232075, Pos: 0.075796, Yaw: 0.078139
+2026-01-02 23:05:34 - Trainer - INFO - Epoch 44/1000 - Val Loss: 0.082502, Pos: 0.035645, Yaw: 0.023429
+2026-01-02 23:05:34 - Trainer - INFO -   Position Error (cm) - Mean: 13.32, Median: 10.08, Std: 22.01, 95th: 26.06
+2026-01-02 23:05:34 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.56, Median: 2.36, Std: 8.06, 95th: 7.58
+2026-01-02 23:05:34 - Trainer - INFO -   Patience: 9/100
+2026-01-02 23:05:57 - Trainer - INFO - Epoch 45/1000 - Train Loss: 0.284752, Pos: 0.092315, Yaw: 0.096219
+2026-01-02 23:06:01 - Trainer - INFO - Epoch 45/1000 - Val Loss: 5.940324, Pos: 5.782912, Yaw: 0.078706
+2026-01-02 23:06:01 - Trainer - INFO -   Position Error (cm) - Mean: 39.87, Median: 11.61, Std: 339.29, 95th: 27.84
+2026-01-02 23:06:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 8.65, Median: 7.00, Std: 13.62, 95th: 13.34
+2026-01-02 23:06:01 - Trainer - INFO -   Patience: 10/100
+2026-01-02 23:06:24 - Trainer - INFO - Epoch 46/1000 - Train Loss: 0.256061, Pos: 0.076430, Yaw: 0.089816
+2026-01-02 23:06:27 - Trainer - INFO - Epoch 46/1000 - Val Loss: 2.171756, Pos: 2.031209, Yaw: 0.070273
+2026-01-02 23:06:27 - Trainer - INFO -   Position Error (cm) - Mean: 31.56, Median: 11.55, Std: 198.06, 95th: 35.39
+2026-01-02 23:06:27 - Trainer - INFO -   Yaw Error (deg)     - Mean: 5.22, Median: 2.74, Std: 14.34, 95th: 10.14
+2026-01-02 23:06:27 - Trainer - INFO -   Patience: 11/100
+2026-01-02 23:06:51 - Trainer - INFO - Epoch 47/1000 - Train Loss: 0.190193, Pos: 0.061587, Yaw: 0.064303
+2026-01-02 23:06:54 - Trainer - INFO - Epoch 47/1000 - Val Loss: 0.471763, Pos: 0.422068, Yaw: 0.024847
+2026-01-02 23:06:54 - Trainer - INFO -   Position Error (cm) - Mean: 14.83, Median: 7.88, Std: 88.22, 95th: 21.34
+2026-01-02 23:06:54 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.11, Median: 2.94, Std: 8.07, 95th: 8.78
+2026-01-02 23:06:54 - Trainer - INFO -   Learning rate reduced: 5.00e-04 -> 2.50e-04
+2026-01-02 23:06:54 - Trainer - INFO -   Patience: 12/100
+2026-01-02 23:07:17 - Trainer - INFO - Epoch 48/1000 - Train Loss: 0.189896, Pos: 0.057900, Yaw: 0.065998
+2026-01-02 23:07:21 - Trainer - INFO - Epoch 48/1000 - Val Loss: 0.220782, Pos: 0.174635, Yaw: 0.023074
+2026-01-02 23:07:21 - Trainer - INFO -   Position Error (cm) - Mean: 13.38, Median: 8.18, Std: 55.88, 95th: 25.01
+2026-01-02 23:07:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.81, Median: 2.68, Std: 7.86, 95th: 7.88
+2026-01-02 23:07:21 - Trainer - INFO -   Patience: 13/100
+2026-01-02 23:07:44 - Trainer - INFO - Epoch 49/1000 - Train Loss: 0.167648, Pos: 0.054931, Yaw: 0.056358
+2026-01-02 23:07:47 - Trainer - INFO - Epoch 49/1000 - Val Loss: 0.458646, Pos: 0.361008, Yaw: 0.048819
+2026-01-02 23:07:47 - Trainer - INFO -   Position Error (cm) - Mean: 14.22, Median: 7.51, Std: 82.13, 95th: 20.89
+2026-01-02 23:07:47 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.64, Median: 1.85, Std: 12.19, 95th: 6.25
+2026-01-02 23:07:47 - Trainer - INFO -   Patience: 14/100
+2026-01-02 23:08:11 - Trainer - INFO - Epoch 50/1000 - Train Loss: 0.168588, Pos: 0.054701, Yaw: 0.056944
+2026-01-02 23:08:14 - Trainer - INFO - Epoch 50/1000 - Val Loss: 1.346452, Pos: 1.279749, Yaw: 0.033352
+2026-01-02 23:08:14 - Trainer - INFO -   Position Error (cm) - Mean: 19.90, Median: 10.82, Std: 155.22, 95th: 26.15
+2026-01-02 23:08:14 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.64, Median: 3.68, Std: 9.07, 95th: 8.19
+2026-01-02 23:08:14 - Trainer - INFO -   Patience: 15/100
+2026-01-02 23:08:37 - Trainer - INFO - Epoch 51/1000 - Train Loss: 0.148845, Pos: 0.048243, Yaw: 0.050301
+2026-01-02 23:08:41 - Trainer - INFO - Epoch 51/1000 - Val Loss: 1.951863, Pos: 1.888772, Yaw: 0.031545
+2026-01-02 23:08:41 - Trainer - INFO -   Position Error (cm) - Mean: 19.71, Median: 7.50, Std: 191.32, 95th: 19.41
+2026-01-02 23:08:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.64, Median: 2.42, Std: 9.45, 95th: 6.90
+2026-01-02 23:08:41 - Trainer - INFO -   Patience: 16/100
+2026-01-02 23:09:04 - Trainer - INFO - Epoch 52/1000 - Train Loss: 0.157870, Pos: 0.049390, Yaw: 0.054240
+2026-01-02 23:09:07 - Trainer - INFO - Epoch 52/1000 - Val Loss: 2.320620, Pos: 2.227271, Yaw: 0.046674
+2026-01-02 23:09:07 - Trainer - INFO -   Position Error (cm) - Mean: 19.61, Median: 6.69, Std: 205.36, 95th: 19.34
+2026-01-02 23:09:07 - Trainer - INFO -   Yaw Error (deg)     - Mean: 4.02, Median: 2.49, Std: 11.77, 95th: 7.15
+2026-01-02 23:09:07 - Trainer - INFO -   Patience: 17/100
+2026-01-02 23:09:31 - Trainer - INFO - Epoch 53/1000 - Train Loss: 0.137341, Pos: 0.044978, Yaw: 0.046182
+2026-01-02 23:09:34 - Trainer - INFO - Epoch 53/1000 - Val Loss: 0.067988, Pos: 0.027610, Yaw: 0.020189
+2026-01-02 23:09:34 - Trainer - INFO -   Position Error (cm) - Mean: 9.11, Median: 6.32, Std: 20.95, 95th: 18.49
+2026-01-02 23:09:34 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.90, Median: 3.03, Std: 7.18, 95th: 7.66
+2026-01-02 23:09:34 - Trainer - INFO -   Learning rate reduced: 2.50e-04 -> 1.25e-04
+2026-01-02 23:09:34 - Trainer - INFO -   Patience: 18/100
+2026-01-02 23:09:57 - Trainer - INFO - Epoch 54/1000 - Train Loss: 0.165674, Pos: 0.050864, Yaw: 0.057405
+2026-01-02 23:10:01 - Trainer - INFO - Epoch 54/1000 - Val Loss: 0.086150, Pos: 0.058082, Yaw: 0.014034
+2026-01-02 23:10:01 - Trainer - INFO -   Position Error (cm) - Mean: 9.73, Median: 6.74, Std: 32.08, 95th: 16.20
+2026-01-02 23:10:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.66, Median: 1.86, Std: 6.28, 95th: 5.67
+2026-01-02 23:10:01 - Trainer - INFO -   Patience: 19/100
+2026-01-02 23:10:24 - Trainer - INFO - Epoch 55/1000 - Train Loss: 0.150924, Pos: 0.047478, Yaw: 0.051723
+2026-01-02 23:10:27 - Trainer - INFO - Epoch 55/1000 - Val Loss: 0.068329, Pos: 0.039690, Yaw: 0.014320
+2026-01-02 23:10:27 - Trainer - INFO -   Position Error (cm) - Mean: 9.73, Median: 6.54, Std: 25.83, 95th: 18.92
+2026-01-02 23:10:27 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.54, Median: 1.69, Std: 6.40, 95th: 5.23
+2026-01-02 23:10:27 - Trainer - INFO -   Patience: 20/100
+2026-01-02 23:10:51 - Trainer - INFO - Epoch 56/1000 - Train Loss: 0.150898, Pos: 0.047207, Yaw: 0.051846
+2026-01-02 23:10:54 - Trainer - INFO - Epoch 56/1000 - Val Loss: 0.078383, Pos: 0.028430, Yaw: 0.024976
+2026-01-02 23:10:54 - Trainer - INFO -   Position Error (cm) - Mean: 8.74, Median: 5.84, Std: 21.54, 95th: 17.76
+2026-01-02 23:10:54 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.88, Median: 1.94, Std: 8.63, 95th: 5.75
+2026-01-02 23:10:54 - Trainer - INFO -   Patience: 21/100
+2026-01-02 23:11:17 - Trainer - INFO - Epoch 57/1000 - Train Loss: 0.139773, Pos: 0.044354, Yaw: 0.047709
+2026-01-02 23:11:21 - Trainer - INFO - Epoch 57/1000 - Val Loss: 0.105893, Pos: 0.060422, Yaw: 0.022735
+2026-01-02 23:11:21 - Trainer - INFO -   Position Error (cm) - Mean: 10.21, Median: 6.55, Std: 32.67, 95th: 18.80
+2026-01-02 23:11:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.38, Median: 2.53, Std: 7.99, 95th: 6.41
+2026-01-02 23:11:21 - Trainer - INFO -   Patience: 22/100
+2026-01-02 23:11:44 - Trainer - INFO - Epoch 58/1000 - Train Loss: 0.152759, Pos: 0.044887, Yaw: 0.053936
+2026-01-02 23:11:47 - Trainer - INFO - Epoch 58/1000 - Val Loss: 0.044618, Pos: 0.024650, Yaw: 0.009984
+2026-01-02 23:11:47 - Trainer - INFO -   Position Error (cm) - Mean: 7.84, Median: 5.43, Std: 20.08, 95th: 15.08
+2026-01-02 23:11:47 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.66, Median: 2.03, Std: 5.09, 95th: 5.58
+2026-01-02 23:11:48 - Trainer - INFO -   ✓ New best model saved! Val Loss: 0.044618, Pos Error: 7.84 cm, Yaw Error: 2.66°
+2026-01-02 23:12:12 - Trainer - INFO - Epoch 59/1000 - Train Loss: 0.136824, Pos: 0.042610, Yaw: 0.047107
+2026-01-02 23:12:15 - Trainer - INFO - Epoch 59/1000 - Val Loss: 0.518982, Pos: 0.471562, Yaw: 0.023710
+2026-01-02 23:12:15 - Trainer - INFO -   Position Error (cm) - Mean: 12.44, Median: 6.86, Std: 95.44, 95th: 19.71
+2026-01-02 23:12:15 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.09, Median: 2.09, Std: 8.31, 95th: 5.41
+2026-01-02 23:12:15 - Trainer - INFO -   Patience: 1/100
+2026-01-02 23:12:39 - Trainer - INFO - Epoch 60/1000 - Train Loss: 0.144816, Pos: 0.045779, Yaw: 0.049519
+2026-01-02 23:12:42 - Trainer - INFO - Epoch 60/1000 - Val Loss: 0.055236, Pos: 0.027907, Yaw: 0.013665
+2026-01-02 23:12:42 - Trainer - INFO -   Position Error (cm) - Mean: 9.64, Median: 6.73, Std: 20.82, 95th: 20.03
+2026-01-02 23:12:42 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.65, Median: 1.82, Std: 6.18, 95th: 5.38
+2026-01-02 23:12:42 - Trainer - INFO -   Patience: 2/100
+2026-01-02 23:13:05 - Trainer - INFO - Epoch 61/1000 - Train Loss: 0.143270, Pos: 0.044951, Yaw: 0.049159
+2026-01-02 23:13:09 - Trainer - INFO - Epoch 61/1000 - Val Loss: 0.245320, Pos: 0.207622, Yaw: 0.018849
+2026-01-02 23:13:09 - Trainer - INFO -   Position Error (cm) - Mean: 11.42, Median: 7.16, Std: 63.04, 95th: 18.38
+2026-01-02 23:13:09 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.93, Median: 2.08, Std: 7.34, 95th: 5.48
+2026-01-02 23:13:09 - Trainer - INFO -   Patience: 3/100
+2026-01-02 23:13:32 - Trainer - INFO - Epoch 62/1000 - Train Loss: 0.130140, Pos: 0.042404, Yaw: 0.043868
+2026-01-02 23:13:35 - Trainer - INFO - Epoch 62/1000 - Val Loss: 5.830368, Pos: 5.758500, Yaw: 0.035934
+2026-01-02 23:13:35 - Trainer - INFO -   Position Error (cm) - Mean: 32.21, Median: 7.44, Std: 334.62, 95th: 22.69
+2026-01-02 23:13:35 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.83, Median: 1.47, Std: 10.54, 95th: 4.87
+2026-01-02 23:13:35 - Trainer - INFO -   Patience: 4/100
+2026-01-02 23:13:58 - Trainer - INFO - Epoch 63/1000 - Train Loss: 0.135646, Pos: 0.041974, Yaw: 0.046836
+2026-01-02 23:14:02 - Trainer - INFO - Epoch 63/1000 - Val Loss: 0.532420, Pos: 0.474491, Yaw: 0.028965
+2026-01-02 23:14:02 - Trainer - INFO -   Position Error (cm) - Mean: 12.01, Median: 5.49, Std: 96.23, 95th: 16.60
+2026-01-02 23:14:02 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.78, Median: 2.83, Std: 9.04, 95th: 6.35
+2026-01-02 23:14:02 - Trainer - INFO -   Patience: 5/100
+2026-01-02 23:14:25 - Trainer - INFO - Epoch 64/1000 - Train Loss: 0.149258, Pos: 0.046061, Yaw: 0.051599
+2026-01-02 23:14:28 - Trainer - INFO - Epoch 64/1000 - Val Loss: 14.268365, Pos: 14.177443, Yaw: 0.045461
+2026-01-02 23:14:28 - Trainer - INFO -   Position Error (cm) - Mean: 42.94, Median: 6.05, Std: 521.54, 95th: 16.78
+2026-01-02 23:14:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.08, Median: 1.47, Std: 11.80, 95th: 4.85
+2026-01-02 23:14:28 - Trainer - INFO -   Learning rate reduced: 1.25e-04 -> 6.25e-05
+2026-01-02 23:14:28 - Trainer - INFO -   Patience: 6/100
+2026-01-02 23:14:51 - Trainer - INFO - Epoch 65/1000 - Train Loss: 0.133558, Pos: 0.042212, Yaw: 0.045673
+2026-01-02 23:14:55 - Trainer - INFO - Epoch 65/1000 - Val Loss: 4.853832, Pos: 4.810092, Yaw: 0.021870
+2026-01-02 23:14:55 - Trainer - INFO -   Position Error (cm) - Mean: 25.12, Median: 4.98, Std: 304.97, 95th: 14.23
+2026-01-02 23:14:55 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.41, Median: 1.37, Std: 8.16, 95th: 4.55
+2026-01-02 23:14:55 - Trainer - INFO -   Patience: 7/100
+2026-01-02 23:15:18 - Trainer - INFO - Epoch 66/1000 - Train Loss: 0.125237, Pos: 0.041296, Yaw: 0.041970
+2026-01-02 23:15:22 - Trainer - INFO - Epoch 66/1000 - Val Loss: 5.348575, Pos: 5.276905, Yaw: 0.035835
+2026-01-02 23:15:22 - Trainer - INFO -   Position Error (cm) - Mean: 29.77, Median: 6.94, Std: 319.91, 95th: 20.00
+2026-01-02 23:15:22 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.98, Median: 1.67, Std: 10.48, 95th: 5.01
+2026-01-02 23:15:22 - Trainer - INFO -   Patience: 8/100
+2026-01-02 23:15:45 - Trainer - INFO - Epoch 67/1000 - Train Loss: 0.128631, Pos: 0.041473, Yaw: 0.043579
+2026-01-02 23:15:48 - Trainer - INFO - Epoch 67/1000 - Val Loss: 5.233673, Pos: 5.172264, Yaw: 0.030704
+2026-01-02 23:15:48 - Trainer - INFO -   Position Error (cm) - Mean: 28.58, Median: 5.93, Std: 315.06, 95th: 18.18
+2026-01-02 23:15:48 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.62, Median: 1.40, Std: 9.74, 95th: 4.54
+2026-01-02 23:15:48 - Trainer - INFO -   Patience: 9/100
+2026-01-02 23:16:12 - Trainer - INFO - Epoch 68/1000 - Train Loss: 0.130526, Pos: 0.040021, Yaw: 0.045252
+2026-01-02 23:16:15 - Trainer - INFO - Epoch 68/1000 - Val Loss: 16.215229, Pos: 16.121104, Yaw: 0.047062
+2026-01-02 23:16:15 - Trainer - INFO -   Position Error (cm) - Mean: 49.67, Median: 8.59, Std: 558.67, 95th: 23.59
+2026-01-02 23:16:15 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.66, Median: 2.12, Std: 11.93, 95th: 5.83
+2026-01-02 23:16:15 - Trainer - INFO -   Patience: 10/100
+2026-01-02 23:16:38 - Trainer - INFO - Epoch 69/1000 - Train Loss: 0.127891, Pos: 0.039802, Yaw: 0.044044
+2026-01-02 23:16:42 - Trainer - INFO - Epoch 69/1000 - Val Loss: 1.087939, Pos: 1.013780, Yaw: 0.037079
+2026-01-02 23:16:42 - Trainer - INFO -   Position Error (cm) - Mean: 16.33, Median: 8.20, Std: 138.91, 95th: 21.47
+2026-01-02 23:16:42 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.78, Median: 1.53, Std: 10.73, 95th: 4.60
+2026-01-02 23:16:42 - Trainer - INFO -   Patience: 11/100
+2026-01-02 23:17:05 - Trainer - INFO - Epoch 70/1000 - Train Loss: 0.135304, Pos: 0.039404, Yaw: 0.047950
+2026-01-02 23:17:08 - Trainer - INFO - Epoch 70/1000 - Val Loss: 7.715888, Pos: 7.654123, Yaw: 0.030883
+2026-01-02 23:17:08 - Trainer - INFO -   Position Error (cm) - Mean: 33.23, Median: 6.81, Std: 382.43, 95th: 17.91
+2026-01-02 23:17:08 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.71, Median: 1.41, Std: 9.69, 95th: 4.47
+2026-01-02 23:17:08 - Trainer - INFO -   Learning rate reduced: 6.25e-05 -> 3.13e-05
+2026-01-02 23:17:08 - Trainer - INFO -   Patience: 12/100
+2026-01-02 23:17:31 - Trainer - INFO - Epoch 71/1000 - Train Loss: 0.131576, Pos: 0.042149, Yaw: 0.044714
+2026-01-02 23:17:35 - Trainer - INFO - Epoch 71/1000 - Val Loss: 0.215993, Pos: 0.158938, Yaw: 0.028527
+2026-01-02 23:17:35 - Trainer - INFO -   Position Error (cm) - Mean: 11.01, Median: 6.17, Std: 54.46, 95th: 17.26
+2026-01-02 23:17:35 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.49, Median: 1.45, Std: 9.40, 95th: 4.55
+2026-01-02 23:17:35 - Trainer - INFO -   Patience: 13/100
+2026-01-02 23:17:58 - Trainer - INFO - Epoch 72/1000 - Train Loss: 0.133774, Pos: 0.043461, Yaw: 0.045157
+2026-01-02 23:18:01 - Trainer - INFO - Epoch 72/1000 - Val Loss: 5.389512, Pos: 5.326408, Yaw: 0.031552
+2026-01-02 23:18:01 - Trainer - INFO -   Position Error (cm) - Mean: 28.90, Median: 6.08, Std: 317.97, 95th: 16.48
+2026-01-02 23:18:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.06, Median: 1.90, Std: 9.75, 95th: 5.08
+2026-01-02 23:18:01 - Trainer - INFO -   Patience: 14/100
+2026-01-02 23:18:25 - Trainer - INFO - Epoch 73/1000 - Train Loss: 0.121773, Pos: 0.037881, Yaw: 0.041946
+2026-01-02 23:18:28 - Trainer - INFO - Epoch 73/1000 - Val Loss: 0.205133, Pos: 0.150564, Yaw: 0.027285
+2026-01-02 23:18:28 - Trainer - INFO -   Position Error (cm) - Mean: 11.43, Median: 6.74, Std: 52.53, 95th: 19.22
+2026-01-02 23:18:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.38, Median: 1.26, Std: 9.21, 95th: 4.15
+2026-01-02 23:18:28 - Trainer - INFO -   Patience: 15/100
+2026-01-02 23:18:51 - Trainer - INFO - Epoch 74/1000 - Train Loss: 0.129784, Pos: 0.040377, Yaw: 0.044703
+2026-01-02 23:18:55 - Trainer - INFO - Epoch 74/1000 - Val Loss: 0.048113, Pos: 0.024678, Yaw: 0.011717
+2026-01-02 23:18:55 - Trainer - INFO -   Position Error (cm) - Mean: 9.16, Median: 6.86, Std: 19.70, 95th: 16.17
+2026-01-02 23:18:55 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.83, Median: 2.20, Std: 5.55, 95th: 5.78
+2026-01-02 23:18:55 - Trainer - INFO -   Patience: 16/100
+2026-01-02 23:19:18 - Trainer - INFO - Epoch 75/1000 - Train Loss: 0.132666, Pos: 0.040140, Yaw: 0.046263
+2026-01-02 23:19:21 - Trainer - INFO - Epoch 75/1000 - Val Loss: 0.074025, Pos: 0.031709, Yaw: 0.021158
+2026-01-02 23:19:21 - Trainer - INFO -   Position Error (cm) - Mean: 9.61, Median: 6.45, Std: 22.69, 95th: 19.30
+2026-01-02 23:19:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.48, Median: 1.63, Std: 8.00, 95th: 4.58
+2026-01-02 23:19:21 - Trainer - INFO -   Patience: 17/100
+2026-01-02 23:19:45 - Trainer - INFO - Epoch 76/1000 - Train Loss: 0.124630, Pos: 0.037902, Yaw: 0.043364
+2026-01-02 23:19:48 - Trainer - INFO - Epoch 76/1000 - Val Loss: 0.173318, Pos: 0.136153, Yaw: 0.018583
+2026-01-02 23:19:48 - Trainer - INFO -   Position Error (cm) - Mean: 9.42, Median: 5.22, Std: 50.12, 95th: 15.12
+2026-01-02 23:19:48 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.54, Median: 1.63, Std: 7.42, 95th: 4.57
+2026-01-02 23:19:48 - Trainer - INFO -   Learning rate reduced: 3.13e-05 -> 1.56e-05
+2026-01-02 23:19:48 - Trainer - INFO -   Patience: 18/100
+2026-01-02 23:20:11 - Trainer - INFO - Epoch 77/1000 - Train Loss: 0.125461, Pos: 0.039277, Yaw: 0.043092
+2026-01-02 23:20:15 - Trainer - INFO - Epoch 77/1000 - Val Loss: 1.255194, Pos: 1.211554, Yaw: 0.021820
+2026-01-02 23:20:15 - Trainer - INFO -   Position Error (cm) - Mean: 13.96, Median: 5.96, Std: 152.01, 95th: 16.24
+2026-01-02 23:20:15 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.01, Median: 2.08, Std: 7.95, 95th: 5.32
+2026-01-02 23:20:15 - Trainer - INFO -   Patience: 19/100
+2026-01-02 23:20:38 - Trainer - INFO - Epoch 78/1000 - Train Loss: 0.127017, Pos: 0.038848, Yaw: 0.044084
+2026-01-02 23:20:41 - Trainer - INFO - Epoch 78/1000 - Val Loss: 0.046419, Pos: 0.024382, Yaw: 0.011018
+2026-01-02 23:20:41 - Trainer - INFO -   Position Error (cm) - Mean: 7.49, Median: 4.96, Std: 20.28, 95th: 13.82
+2026-01-02 23:20:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.47, Median: 1.85, Std: 5.51, 95th: 4.92
+2026-01-02 23:20:41 - Trainer - INFO -   Patience: 20/100
+2026-01-02 23:21:05 - Trainer - INFO - Epoch 79/1000 - Train Loss: 0.123039, Pos: 0.038443, Yaw: 0.042298
+2026-01-02 23:21:08 - Trainer - INFO - Epoch 79/1000 - Val Loss: 3.551486, Pos: 3.484362, Yaw: 0.033562
+2026-01-02 23:21:08 - Trainer - INFO -   Position Error (cm) - Mean: 22.13, Median: 6.49, Std: 258.04, 95th: 18.11
+2026-01-02 23:21:08 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.55, Median: 1.28, Std: 10.22, 95th: 4.06
+2026-01-02 23:21:08 - Trainer - INFO -   Patience: 21/100
+2026-01-02 23:21:31 - Trainer - INFO - Epoch 80/1000 - Train Loss: 0.125619, Pos: 0.038961, Yaw: 0.043329
+2026-01-02 23:21:35 - Trainer - INFO - Epoch 80/1000 - Val Loss: 0.166635, Pos: 0.131775, Yaw: 0.017430
+2026-01-02 23:21:35 - Trainer - INFO -   Position Error (cm) - Mean: 11.20, Median: 6.97, Std: 49.26, 95th: 19.50
+2026-01-02 23:21:35 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.74, Median: 1.92, Std: 7.09, 95th: 5.28
+2026-01-02 23:21:35 - Trainer - INFO -   Patience: 22/100
+2026-01-02 23:21:58 - Trainer - INFO - Epoch 81/1000 - Train Loss: 0.128318, Pos: 0.038623, Yaw: 0.044847
+2026-01-02 23:22:01 - Trainer - INFO - Epoch 81/1000 - Val Loss: 7.801931, Pos: 7.738368, Yaw: 0.031782
+2026-01-02 23:22:01 - Trainer - INFO -   Position Error (cm) - Mean: 32.23, Median: 4.73, Std: 387.02, 95th: 14.52
+2026-01-02 23:22:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.90, Median: 1.64, Std: 9.78, 95th: 4.72
+2026-01-02 23:22:01 - Trainer - INFO -   Patience: 23/100
+2026-01-02 23:22:25 - Trainer - INFO - Epoch 82/1000 - Train Loss: 0.140675, Pos: 0.041522, Yaw: 0.049576
+2026-01-02 23:22:28 - Trainer - INFO - Epoch 82/1000 - Val Loss: 0.083513, Pos: 0.047691, Yaw: 0.017911
+2026-01-02 23:22:28 - Trainer - INFO -   Position Error (cm) - Mean: 9.06, Median: 5.85, Std: 28.91, 95th: 16.58
+2026-01-02 23:22:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.54, Median: 2.92, Std: 6.84, 95th: 6.21
+2026-01-02 23:22:28 - Trainer - INFO -   Learning rate reduced: 1.56e-05 -> 7.81e-06
+2026-01-02 23:22:28 - Trainer - INFO -   Patience: 24/100
+2026-01-02 23:22:51 - Trainer - INFO - Epoch 83/1000 - Train Loss: 0.120960, Pos: 0.039087, Yaw: 0.040937
+2026-01-02 23:22:55 - Trainer - INFO - Epoch 83/1000 - Val Loss: 1.626733, Pos: 1.566191, Yaw: 0.030271
+2026-01-02 23:22:55 - Trainer - INFO -   Position Error (cm) - Mean: 16.35, Median: 6.20, Std: 173.38, 95th: 17.82
+2026-01-02 23:22:55 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.66, Median: 2.68, Std: 9.32, 95th: 5.91
+2026-01-02 23:22:55 - Trainer - INFO -   Patience: 25/100
+2026-01-02 23:23:18 - Trainer - INFO - Epoch 84/1000 - Train Loss: 0.126215, Pos: 0.039898, Yaw: 0.043159
+2026-01-02 23:23:21 - Trainer - INFO - Epoch 84/1000 - Val Loss: 0.047819, Pos: 0.024851, Yaw: 0.011484
+2026-01-02 23:23:21 - Trainer - INFO -   Position Error (cm) - Mean: 7.77, Median: 5.18, Std: 20.39, 95th: 14.84
+2026-01-02 23:23:21 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.82, Median: 2.15, Std: 5.48, 95th: 5.87
+2026-01-02 23:23:21 - Trainer - INFO -   Patience: 26/100
+2026-01-02 23:23:45 - Trainer - INFO - Epoch 85/1000 - Train Loss: 0.129090, Pos: 0.039836, Yaw: 0.044627
+2026-01-02 23:23:48 - Trainer - INFO - Epoch 85/1000 - Val Loss: 0.047717, Pos: 0.026407, Yaw: 0.010655
+2026-01-02 23:23:48 - Trainer - INFO -   Position Error (cm) - Mean: 9.78, Median: 7.09, Std: 20.23, 95th: 19.64
+2026-01-02 23:23:48 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.18, Median: 2.72, Std: 5.01, 95th: 6.08
+2026-01-02 23:23:48 - Trainer - INFO -   Patience: 27/100
+2026-01-02 23:24:11 - Trainer - INFO - Epoch 86/1000 - Train Loss: 0.121992, Pos: 0.038159, Yaw: 0.041917
+2026-01-02 23:24:15 - Trainer - INFO - Epoch 86/1000 - Val Loss: 0.066053, Pos: 0.029393, Yaw: 0.018330
+2026-01-02 23:24:15 - Trainer - INFO -   Position Error (cm) - Mean: 8.74, Median: 5.83, Std: 22.12, 95th: 16.24
+2026-01-02 23:24:15 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.30, Median: 1.44, Std: 7.45, 95th: 4.33
+2026-01-02 23:24:15 - Trainer - INFO -   Patience: 28/100
+2026-01-02 23:24:38 - Trainer - INFO - Epoch 87/1000 - Train Loss: 0.122341, Pos: 0.038228, Yaw: 0.042056
+2026-01-02 23:24:41 - Trainer - INFO - Epoch 87/1000 - Val Loss: 0.074643, Pos: 0.050437, Yaw: 0.012103
+2026-01-02 23:24:41 - Trainer - INFO -   Position Error (cm) - Mean: 8.98, Median: 5.56, Std: 29.86, 95th: 17.27
+2026-01-02 23:24:41 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.05, Median: 1.28, Std: 5.99, 95th: 3.97
+2026-01-02 23:24:41 - Trainer - INFO -   Patience: 29/100
+2026-01-02 23:25:05 - Trainer - INFO - Epoch 88/1000 - Train Loss: 0.132006, Pos: 0.040575, Yaw: 0.045715
+2026-01-02 23:25:08 - Trainer - INFO - Epoch 88/1000 - Val Loss: 0.172627, Pos: 0.122439, Yaw: 0.025094
+2026-01-02 23:25:08 - Trainer - INFO -   Position Error (cm) - Mean: 9.53, Median: 5.55, Std: 47.62, 95th: 14.46
+2026-01-02 23:25:08 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.27, Median: 1.21, Std: 8.83, 95th: 4.09
+2026-01-02 23:25:08 - Trainer - INFO -   Learning rate reduced: 7.81e-06 -> 3.91e-06
+2026-01-02 23:25:08 - Trainer - INFO -   Patience: 30/100
+2026-01-02 23:25:31 - Trainer - INFO - Epoch 89/1000 - Train Loss: 0.130823, Pos: 0.040669, Yaw: 0.045077
+2026-01-02 23:25:35 - Trainer - INFO - Epoch 89/1000 - Val Loss: 5.025278, Pos: 4.959624, Yaw: 0.032827
+2026-01-02 23:25:35 - Trainer - INFO -   Position Error (cm) - Mean: 25.30, Median: 5.20, Std: 308.72, 95th: 15.39
+2026-01-02 23:25:35 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.53, Median: 1.24, Std: 10.10, 95th: 4.17
+2026-01-02 23:25:35 - Trainer - INFO -   Patience: 31/100
+2026-01-02 23:25:58 - Trainer - INFO - Epoch 90/1000 - Train Loss: 0.128523, Pos: 0.039123, Yaw: 0.044700
+2026-01-02 23:26:01 - Trainer - INFO - Epoch 90/1000 - Val Loss: 21.423336, Pos: 21.342510, Yaw: 0.040413
+2026-01-02 23:26:01 - Trainer - INFO -   Position Error (cm) - Mean: 55.99, Median: 4.81, Std: 639.35, 95th: 15.21
+2026-01-02 23:26:01 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.05, Median: 1.56, Std: 11.15, 95th: 4.73
+2026-01-02 23:26:01 - Trainer - INFO -   Patience: 32/100
+2026-01-02 23:26:24 - Trainer - INFO - Epoch 91/1000 - Train Loss: 0.128518, Pos: 0.039905, Yaw: 0.044307
+2026-01-02 23:26:28 - Trainer - INFO - Epoch 91/1000 - Val Loss: 3.395542, Pos: 3.325863, Yaw: 0.034839
+2026-01-02 23:26:28 - Trainer - INFO -   Position Error (cm) - Mean: 20.90, Median: 5.88, Std: 252.91, 95th: 16.00
+2026-01-02 23:26:28 - Trainer - INFO -   Yaw Error (deg)     - Mean: 3.44, Median: 2.26, Std: 10.18, 95th: 5.68
+2026-01-02 23:26:28 - Trainer - INFO -   Patience: 33/100
+2026-01-02 23:26:51 - Trainer - INFO - Epoch 92/1000 - Train Loss: 0.130058, Pos: 0.040177, Yaw: 0.044941
+2026-01-02 23:26:54 - Trainer - INFO - Epoch 92/1000 - Val Loss: 0.054531, Pos: 0.025685, Yaw: 0.014423
+2026-01-02 23:26:54 - Trainer - INFO -   Position Error (cm) - Mean: 8.69, Median: 6.13, Std: 20.41, 95th: 16.53
+2026-01-02 23:26:54 - Trainer - INFO -   Yaw Error (deg)     - Mean: 2.72, Median: 2.02, Std: 6.35, 95th: 5.37
+2026-01-02 23:26:54 - Trainer - INFO -   Patience: 34/100
